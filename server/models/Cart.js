@@ -13,7 +13,7 @@ const CartSchema = new mongoose.Schema({
     },
     color: {
         type: String,
-        required: [true, "Product Color is Required"]
+        required: [true, "Product Color is Required and Mendatory"]
     },
     size: {
         type: String,
