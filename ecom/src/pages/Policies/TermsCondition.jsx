@@ -11,6 +11,7 @@ export default function TermsCondition() {
   let [settingData, setSettingData] = useState({
     termsAndCondition: import.meta.env.VITE_APP_SITE_NAME,
   })
+        decodeURI
 
   useEffect(() => {
     (() => {
